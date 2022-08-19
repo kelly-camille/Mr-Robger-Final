@@ -5,12 +5,14 @@ window.addEventListener("load", function () {
 function counting(event) {
   event.preventDefault();
   const countTo = parseInt(document.getElementById("countTo").value);
+  
   const numArr = []
   for (let index = 0; index <= countTo; index += 1) {
     const str = index.toString();
-    numArr.push(index);
     if (str.includes("3") === true) 
-      console.log("check")
+    
+    numArr.push(index);
+
     }
 
 
