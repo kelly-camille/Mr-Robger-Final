@@ -10,7 +10,8 @@ function counting(event) {
   for (let index = 0; index <= countTo; index += 1) {
     const str = index.toString();
     if (str.includes("3") === true) 
-    
+    numArr.push("Won't you be my neighbor?",);
+    else
     numArr.push(index);
 
     }
