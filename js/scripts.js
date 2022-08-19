@@ -10,7 +10,7 @@ function counting(event) {
     finalNumb.push(index);
     }
   finalNumb.forEach(function(element) {
-    console.log("checking current element", element)
+    console.log(finalNumb.toString())
     if (element === 3) 
       console.log("check")
     }
