@@ -7,18 +7,17 @@ function counting(event) {
   const countTo = parseInt(document.getElementById("countTo").value);
   const numArr = []
   for (let index = 0; index <= countTo; index += 1) {
+    const str = index.toString();
     numArr.push(index);
-
-
-  console.log(numArr)
-  numArr.forEach(function(element) {
-    if (numArr.includes("3") === true) 
-      console.log(check)
-    })
+    if (str.includes("3") === true) 
+      console.log("check")
+    }
 
 
 
-  }
+
+
+  
 
 
 
