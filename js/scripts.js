@@ -8,11 +8,12 @@ function counting(event) {
   const finalNumb = []
   for (let index = 0; index <= countTo; index += 1) {
   finalNumb.push(index);
-}
+  if (finalNumb.includes(1) )
+  };
+};
 
 
 
 
 // ui
   document.getElementById("result").innerText = finalNumb
-}
