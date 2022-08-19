@@ -5,22 +5,16 @@ window.addEventListener("load", function () {
 function counting(event) {
   event.preventDefault();
   const countTo = parseInt(document.getElementById("countTo").value);
-  const numbArr = []
+  const numArr = []
   for (let index = 0; index <= countTo; index += 1) {
-    numbArr.push(index);
-   
-
-  const stringArr = numbArr.map();
-    return numbArr.tostring();
-  
+    numArr.push(index);
 
 
-
-  // numbArr.forEach(function(element) {
-  //   numbArr.split(" ")
-  //   if (element === 3) 
-  //     console.log("check")
-  //   }
+  console.log(numArr)
+  numArr.forEach(function(element) {
+    if (numArr.includes("3") === true) 
+      console.log(check)
+    })
 
 
 
@@ -30,5 +24,9 @@ function counting(event) {
 
 
   // ui
-  document.getElementById("result").innerText = stringArr
+  document.getElementById("result").innerText = numArr
 };
+
+
+
+
