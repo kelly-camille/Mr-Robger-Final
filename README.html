@@ -1,3 +1,44 @@
+#Mr Robger Final
+
+#### By Kelly Bruce
+
+#### takes input from user and modifies select values
+
+## Technologies Used
+
+* HTML
+* JavaScript
+
+## Description
+
+application takes a number from the user and returns a list of values from 0 to the user's inputted number with the following substitutions:
+*For numbers that contain a 1, all digits are replaced with "Beep!"
+*For numbers that contain a 2, all digits are replaced with "Boop!"
+*For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?"
+
+## Setup/Installation Requirements
+
+* _This is a great place_
+* _to list setup instructions_
+* _in a simple_
+* _easy-to-understand_
+* _format_
+
+_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+
+## Known Bugs
+
+* No known bugs at this time
+
+## License
+
+MIT
+
+Copyright (c) 8/19/22 Kelly Bruce
+
+
+
+
 Describe: counting()
 Test: 
 "It should return an array of numbers from 0 to a determined number"
@@ -42,7 +83,25 @@ if(str.includes("3") === true {
 Expected Outcome:
 1,2, Won't you be my neighbor?...
 ------------------------------------------------------------------------------
--determine if any number in output contains a 2, and apply the value "Boop!"
+Test:
+determine if any number in output contains a 2, and apply the value "Boop!"
+Code:
+if(str.includes("2") === true {
+  numArr.push("Boop!");
+} else {
+  numArr.push(index);
+Expected Outcome:
+1, boop!, 3
+------------------------------------------------------------------------------
+Test:
+determine if any number in output contains a 1, and apply the value "Beep!"
+Code:
+if(str.includes("1") === true {
+  numArr.push("Beep!");
+} else {
+  numArr.push(index);
+Expected Outcome:
+beep!, 2, 3
 
--determine if any number in output contains a 1, and apply the value "Beep!"
+
 - apply order " 1 should apply unless there's a 2 present in the number. Then, the substitution for the number 2 should apply unless there's a 3 present in the number."

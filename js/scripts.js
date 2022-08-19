@@ -19,19 +19,6 @@ function counting(event) {
     numArr.push(index);
     }
   }
-    // if(str = includes("2") === true) {
-    //   numArr.push("Boop!");
-    // } else {
-    //   numArrpush
-    // }
-    // }
-
-
-  
-
-
-
-
   // ui
   document.getElementById("result").innerText = numArr
 };
