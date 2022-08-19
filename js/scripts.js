@@ -5,23 +5,30 @@ window.addEventListener("load", function () {
 function counting(event) {
   event.preventDefault();
   const countTo = parseInt(document.getElementById("countTo").value);
-  const finalNumb = []
+  const numbArr = []
   for (let index = 0; index <= countTo; index += 1) {
-    finalNumb.push(index);
-    }
-  finalNumb.forEach(function(element) {
-    console.log(finalNumb.toString())
-    if (element === 3) 
-      console.log("check")
-    }
-  );
+    numbArr.push(index);
+   
+
+  const stringArr = numbArr.map();
+    return numbArr.tostring();
+  
 
 
 
+  // numbArr.forEach(function(element) {
+  //   numbArr.split(" ")
+  //   if (element === 3) 
+  //     console.log("check")
+  //   }
+
+
+
+  }
 
 
 
 
   // ui
-  document.getElementById("result").innerText = finalNumb
+  document.getElementById("result").innerText = stringArr
 };
