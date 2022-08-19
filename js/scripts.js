@@ -9,11 +9,12 @@ function counting(event) {
   for (let index = 0; index <= countTo; index += 1) {
     finalNumb.push(index);
     }
-  function includes1(element) {
-    if (finalNumb.includes(1))
-    return true;
-     
-  };
+  finalNumb.forEach(function(element) {
+    console.log("checking current element", element)
+    if (element === 3) 
+      console.log("check")
+    }
+  );
 
 
 
